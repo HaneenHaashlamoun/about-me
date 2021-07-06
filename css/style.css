@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: darkred;
+    background-color: darksalmon;
+    margin: 20px;
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    padding: 50px;
+    color:lemonchiffon;
+    background-color:navy;
+}
