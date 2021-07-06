@@ -107,6 +107,7 @@ let movieArr = ['Forest Gump', 'matrix', 'Die Hard', 'Pinocchio', 'The Exorcist'
 
 attemptsLoop: for (let x = 0; x < 6; x++) {
     let movie = prompt('What is my favorite movie ??...');
+    movie = movie.toLocaleLowerCase();
     for (let j = 0; j < 10; j++) {
         if (movie == movieArr[j] ) {
             alert('Great Job..! 😊');
