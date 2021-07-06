@@ -1,41 +1,37 @@
 h1{
     text-align: center;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
     color: darkred;
     background-color: darksalmon;
     margin: 20px;
     padding: 50px;
 }
 
+section{
+    color: darkred;
+    background-color: darksalmon;
+}
 p{
     text-align: left;
     font-weight: bold;
     margin: 10px;
     padding: 10px;
-
+    font-size: x-large;    
 }
 
-/* ul {
-    list-style-type: circle;
-    margin-left: 20px;
-    padding: 10px;
-  } */
-  
   ul {
     list-style-type: square;
     margin-left: 40px;
     padding: 10px;
+    font-weight: bold;
+    font-size: x-large;    
   }
-  
-  /* ol {
-    list-style-type: upper-roman;
-    margin-left: 20px;
-    padding: 10px;
-  } */
   
   ol {
     list-style-type: decimal;
     margin-left: 40px;
     padding: 10px;
+    font-weight: bold;
+    font-size: x-large;    
   }
