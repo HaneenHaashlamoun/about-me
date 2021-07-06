@@ -103,7 +103,7 @@ for (let x = 0; x < 4; x++) {
 
 //the movie guess Array
 
-let movieArr = ['Forest Gump', 'matrix', 'Die Hard', 'Pinocchio', 'The Exorcist', 'Carol', 'Casablanca', 'TheIntern'];
+let movieArr = ['Forest Gump', 'matrix', 'Die Hard', 'Pinocchio', 'The Exorcist', 'Carol', 'Casablanca', 'TheIntern', 'Godfather','The Dark Knight'];
 
 attemptsLoop: for (let x = 0; x < 6; x++) {
     let movie = prompt('What is my favorite movie ??...');
@@ -122,7 +122,7 @@ attemptsLoop: for (let x = 0; x < 6; x++) {
     }
     //Test Number of attempts
     if (x == 5) {
-        alert('My Movies: (Forest Gump, matrix, Die Hard, Pinocchio, The Exorcist, Carol, Casablanca, TheIntern)');
+        alert('My Movies: (Forest Gump, matrix, Die Hard, Pinocchio, The Exorcist, Carol, Casablanca, TheIntern,Godfather,The Dark Knight)');
     }
 }
 
