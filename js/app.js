@@ -14,10 +14,12 @@ if (myname == 'Y') {
     //console.log(myname);
     alert('Correct!... Great you knew my name.😊');
     score++;
-}
-else {
+}else if (myname == 'N'){
     //console.log(myname);
     alert('Wrong answer ...! 🙁');
+}
+else{
+    alert('Please answer with yes or no only..!');
 }
 
 //MYAGE
@@ -28,9 +30,12 @@ if (myage == 'Y') {
     alert('Correct!... Great you knew my age.😊');
     score++;
 }
-else {
+else if (myname == 'N'){
     //console.log(myage);
     alert('Wrong answer ...! 🙁');
+}
+else{
+    alert('Please answer with yes or no only..!');
 }
 
 //MYMAJOR
@@ -41,9 +46,12 @@ if (mymajor == 'y') {
     alert('Correct!... Great you knew my major.😊');
     score++;
 }
-else {
+else if (myname == 'n'){
     //console.log(myage);
     alert('Wrong answer ...! 🙁');
+}
+else{
+    alert('Please answer with yes or no only..!');
 }
 
 //MYEXPERIENCE
@@ -54,9 +62,12 @@ if (myexp == 'y') {
     alert('Correct!... Great you knew my experience.😊');
     score++;
 }
-else {
+else if (myname == 'n'){
     //console.log(myexp);
     alert('Wrong answer ...! 🙁');
+}
+else{
+    alert('Please answer with yes or no only..!');
 }
 
 // //MYKIDS
@@ -67,9 +78,12 @@ if (mykids == 'y') {
     alert('Correct!... Great you knew the number of my kids.😊');
     score++;
 }
-else {
+else if (myname == 'n'){
     //console.log(mykids);
     alert('Wrong answer ...! 🙁');
+}
+else{
+    alert('Please answer with yes or no only..!');
 }
 
 
