@@ -8,11 +8,9 @@ function Q1(answer1) {
 
     answer1 = answer1.toUpperCase();
     if (answer1 == 'Y') {
-        //console.log(answer1);
         alert('Correct!... Great you knew name.😊');
         score++;
     } else if (answer1 == 'N') {
-        //console.log(answer1);
         alert('Wrong answer ...! 🙁');
     }
     else {
@@ -21,20 +19,14 @@ function Q1(answer1) {
     return;
 }
 
-
-
-
-
 let answer2 = '';
 function Q2(answer2) {
 
     answer2 = answer2.toUpperCase();
     if (answer2 == 'Y') {
-        //console.log(answer);
         alert('Correct!... Great you knew age.😊');
         score++;
-    } else if (answer2 == 'N') {
-        //console.log(answer2);
+    } else if (answer2 == 'N') {        
         alert('Wrong answer2 ...! 🙁');
     }
     else {
@@ -49,11 +41,9 @@ function Q3(answer3) {
 
     answer3 = answer3.toUpperCase();
     if (answer3 == 'Y') {
-        //console.log(answer3);
         alert('Correct!... Great you knew major.😊');
         score++;
-    } else if (answer3 == 'N') {
-        //console.log(answer3);
+    } else if (answer3 == 'N') {        
         alert('Wrong answer ...! 🙁');
     }
     else {
@@ -69,11 +59,9 @@ function Q4(answer4) {
 
     answer4 = answer4.toUpperCase();
     if (answer4 == 'Y') {
-        //console.log(answer4);
         alert('Correct!... Great you knew experince.😊');
         score++;
     } else if (answer4 == 'N') {
-        //console.log(answer4);
         alert('Wrong answer ...! 🙁');
     }
     else {
@@ -83,19 +71,14 @@ function Q4(answer4) {
 }
 
 
-
-
-
 let answer5 = '';
 function Q5(answer5) {
 
     answer5 = answer5.toUpperCase();
     if (answer5 == 'Y') {
-        //console.log(answer5);
         alert('Correct!... Great you knew kids😊');
         score++;
     } else if (answer5 == 'N') {
-        //console.log(answer5);
         alert('Wrong answer ...! 🙁');
     }
     else {
@@ -144,8 +127,7 @@ function movieGuess(movie) {
         for (let j = 0; j < movieArr.length; j++) {
             if (movie == movieArr[j]) {
                 alert('Great Job..! 😊');
-                alert('My Movies: (forest gump, matrix, die hard, pinocchio, the exorcist, carol, casablanca, theintern,godfather,the dark knight)');
-                // console.log(movieArr);
+                alert('My Movies: (forest gump, matrix, die hard, pinocchio, the exorcist, carol, casablanca, theintern,godfather,the dark knight)');                
                 scores++;
                 break attemptsLoop;
             }
@@ -160,8 +142,6 @@ function movieGuess(movie) {
         }
     }
 }
-
-
 
 
 let name = prompt('what is your name ?');
@@ -209,13 +189,5 @@ let movieAnswer = prompt('What is my favorite movie ??...');
 movieGuess(movieAnswer);
 
 
-
-
-
-
 alert(`DONE 😊, thanks for answering ${name} 😊😊😊. Your scored ${score} /7 `);
-
-
-
-
 

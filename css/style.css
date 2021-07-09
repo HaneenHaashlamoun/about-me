@@ -6,32 +6,31 @@ h1{
     background-color: darksalmon;
     margin: 20px;
     padding: 50px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 section{
     color: darkred;
     background-color: darksalmon;
+    font-family: 'Roboto Mono', monospace;
 }
 p{
     text-align: left;
-    font-weight: bold;
     margin: 10px;
     padding: 10px;
-    font-size: x-large;    
+    font-family: 'Roboto Mono', monospace;
 }
 
   ul {
     list-style-type: square;
     margin-left: 40px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: x-large;    
+    padding: 10px;    
+    font-family: 'Roboto Mono', monospace;
   }
   
   ol {
     list-style-type: decimal;
     margin-left: 40px;
     padding: 10px;
-    font-weight: bold;
-    font-size: x-large;    
+    font-family: 'Roboto Mono', monospace;
   }
